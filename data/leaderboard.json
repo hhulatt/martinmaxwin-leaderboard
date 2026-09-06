@@ -1,0 +1,65 @@
+{
+  "cycle": "2026-09-01",
+  "periodStart": "2026-09-01",
+  "periodEnd": "2026-09-30",
+  "cycleMode": "monthly",
+  "cycleStartDay": 1,
+  "timezone": "Europe/London",
+  "prizePool": 250,
+  "prizes": [
+    100,
+    60,
+    40,
+    30,
+    20
+  ],
+  "boardSize": 25,
+  "totalWagered": 502.57,
+  "playerCount": 6,
+  "cacheUpdatedAt": "2026-09-06 18:39:22",
+  "updatedAt": "2026-09-06T18:41:24.486Z",
+  "entries": [
+    {
+      "rank": 1,
+      "masked": "mo*****00",
+      "hash": "e7b55d19d740c688",
+      "wagered": 360.57,
+      "prize": 100
+    },
+    {
+      "rank": 2,
+      "masked": "ma******at",
+      "hash": "6c5193968a834faf",
+      "wagered": 112.27,
+      "prize": 60
+    },
+    {
+      "rank": 3,
+      "masked": "Ma*****t0",
+      "hash": "ce9ac2961cbc2ac0",
+      "wagered": 23.19,
+      "prize": 40
+    },
+    {
+      "rank": 4,
+      "masked": "sc*****34",
+      "hash": "b0f256448ee200e6",
+      "wagered": 3.73,
+      "prize": 30
+    },
+    {
+      "rank": 5,
+      "masked": "ma******ot",
+      "hash": "21bca6bcac876721",
+      "wagered": 2.65,
+      "prize": 20
+    },
+    {
+      "rank": 6,
+      "masked": "ma********on",
+      "hash": "5a2214166690ea7f",
+      "wagered": 0.16,
+      "prize": 0
+    }
+  ]
+}
