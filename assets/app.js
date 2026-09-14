@@ -20,7 +20,7 @@
   const HISTORY_INDEX_URL = 'data/history/index.json';
   /* A weekly board runs alongside the monthly one, funded separately by the
      creator. The code ships to every site; only this flag turns it on. */
-  const WEEKLY_ENABLED = true;
+  const WEEKLY_ENABLED = false;
   const WEEK_DATA_URL = 'data/weekly.json';
   const WEEK_HISTORY_INDEX_URL = 'data/history-weekly/index.json';
 
@@ -495,7 +495,7 @@
     $('board-title').textContent = past ? 'Past winners' : 'Current leaderboard';
     $('board-sub').textContent = past
       ? 'Final standings from every period that has closed, straight from Rainbet.'
-      : 'Usernames are partially hidden to protect player privacy. Search below to find your own position.';
+      : 'Search below to find your own position.';
 
     if (past) { renderHistory(); return; }
 
