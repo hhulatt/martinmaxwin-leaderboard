@@ -15,69 +15,76 @@
     20
   ],
   "boardSize": 25,
-  "totalWagered": 1354.96,
-  "playerCount": 9,
-  "cacheUpdatedAt": "2026-09-14 15:31:20",
-  "updatedAt": "2026-09-14T15:31:20.383Z",
+  "totalWagered": 2814.27,
+  "playerCount": 10,
+  "cacheUpdatedAt": "2026-09-15 01:08:06",
+  "updatedAt": "2026-09-15T01:08:06.153Z",
   "entries": [
     {
       "rank": 1,
-      "masked": "mosses000",
-      "hash": "e7b55d19d740c688",
-      "wagered": 516.23,
+      "masked": "MaxWinRanger",
+      "hash": "2fcfdd8bdb24ef52",
+      "wagered": 1117.44,
       "prize": 100
     },
     {
       "rank": 2,
       "masked": "pleasewin00",
       "hash": "fbdc7ca08d51baa4",
-      "wagered": 361.73,
+      "wagered": 547.95,
       "prize": 60
     },
     {
       "rank": 3,
-      "masked": "scoob1234",
-      "hash": "b0f256448ee200e6",
-      "wagered": 216.64,
+      "masked": "mosses000",
+      "hash": "e7b55d19d740c688",
+      "wagered": 516.23,
       "prize": 40
     },
     {
       "rank": 4,
-      "masked": "martinboat",
-      "hash": "6c5193968a834faf",
-      "wagered": 114.75,
+      "masked": "scoob1234",
+      "hash": "b0f256448ee200e6",
+      "wagered": 350.63,
       "prize": 30
     },
     {
       "rank": 5,
       "masked": "Maxxport0",
       "hash": "ce9ac2961cbc2ac0",
-      "wagered": 105.19,
+      "wagered": 125.44,
       "prize": 20
     },
     {
       "rank": 6,
+      "masked": "martinboat",
+      "hash": "6c5193968a834faf",
+      "wagered": 116.14,
+      "prize": 0
+    },
+    {
+      "rank": 7,
       "masked": "brokertz",
       "hash": "9e0b5db4c4d269c4",
       "wagered": 20.23,
       "prize": 0
     },
     {
-      "rank": 7,
+      "rank": 8,
       "masked": "karinamaxwin",
       "hash": "2a2cd5f034da88e2",
       "wagered": 17.38,
       "prize": 0
     },
     {
-      "rank": 8,
+      "rank": 9,
       "masked": "martinsbot",
       "hash": "21bca6bcac876721",
       "wagered": 2.65,
       "prize": 0
     },
     {
-      "rank": 9,
+      "rank": 10,
       "masked": "maxwinlebron",
       "hash": "5a2214166690ea7f",
       "wagered": 0.16,
