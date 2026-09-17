@@ -15,10 +15,10 @@
     20
   ],
   "boardSize": 25,
-  "totalWagered": 4765.31,
+  "totalWagered": 5066.29,
   "playerCount": 10,
-  "cacheUpdatedAt": "2026-09-16 04:08:49",
-  "updatedAt": "2026-09-16T04:08:49.381Z",
+  "cacheUpdatedAt": "2026-09-17 01:03:29",
+  "updatedAt": "2026-09-17T01:03:29.661Z",
   "entries": [
     {
       "rank": 1,
@@ -31,7 +31,7 @@
       "rank": 2,
       "masked": "MaxWinRanger",
       "hash": "2fcfdd8bdb24ef52",
-      "wagered": 1117.71,
+      "wagered": 1119.19,
       "prize": 60
     },
     {
@@ -43,51 +43,51 @@
     },
     {
       "rank": 4,
-      "masked": "scoob1234",
-      "hash": "b0f256448ee200e6",
-      "wagered": 351.33,
+      "masked": "martinboat",
+      "hash": "6c5193968a834faf",
+      "wagered": 389.12,
       "prize": 30
     },
     {
       "rank": 5,
-      "masked": "Maxxport0",
-      "hash": "ce9ac2961cbc2ac0",
-      "wagered": 125.44,
+      "masked": "scoob1234",
+      "hash": "b0f256448ee200e6",
+      "wagered": 353.76,
       "prize": 20
     },
     {
       "rank": 6,
-      "masked": "martinboat",
-      "hash": "6c5193968a834faf",
-      "wagered": 116.14,
+      "masked": "Maxxport0",
+      "hash": "ce9ac2961cbc2ac0",
+      "wagered": 125.44,
       "prize": 0
     },
     {
       "rank": 7,
+      "masked": "maxwinlebron",
+      "hash": "5a2214166690ea7f",
+      "wagered": 24.26,
+      "prize": 0
+    },
+    {
+      "rank": 8,
       "masked": "brokertz",
       "hash": "9e0b5db4c4d269c4",
       "wagered": 20.23,
       "prize": 0
     },
     {
-      "rank": 8,
+      "rank": 9,
       "masked": "karinamaxwin",
       "hash": "2a2cd5f034da88e2",
       "wagered": 17.38,
       "prize": 0
     },
     {
-      "rank": 9,
+      "rank": 10,
       "masked": "martinsbot",
       "hash": "21bca6bcac876721",
       "wagered": 2.65,
-      "prize": 0
-    },
-    {
-      "rank": 10,
-      "masked": "maxwinlebron",
-      "hash": "5a2214166690ea7f",
-      "wagered": 0.16,
       "prize": 0
     }
   ]
