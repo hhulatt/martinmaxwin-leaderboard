@@ -15,44 +15,44 @@
     20
   ],
   "boardSize": 25,
-  "totalWagered": 10368.63,
+  "totalWagered": 15161.15,
   "playerCount": 12,
-  "cacheUpdatedAt": "2026-09-24 04:00:37",
-  "updatedAt": "2026-09-24T04:00:37.307Z",
+  "cacheUpdatedAt": "2026-09-25 01:06:44",
+  "updatedAt": "2026-09-25T01:06:44.410Z",
   "entries": [
     {
       "rank": 1,
       "masked": "ITSBOBB",
       "hash": "ab020ca894181d4b",
-      "wagered": 4387.5,
+      "wagered": 9121.9,
       "prize": 100
     },
     {
       "rank": 2,
       "masked": "mosses000",
       "hash": "e7b55d19d740c688",
-      "wagered": 2224.18,
+      "wagered": 2224.76,
       "prize": 60
     },
     {
       "rank": 3,
       "masked": "pleasewin00",
       "hash": "fbdc7ca08d51baa4",
-      "wagered": 1351.26,
+      "wagered": 1407.73,
       "prize": 40
     },
     {
       "rank": 4,
       "masked": "MaxWinRanger",
       "hash": "2fcfdd8bdb24ef52",
-      "wagered": 1122.8,
+      "wagered": 1123.1,
       "prize": 30
     },
     {
       "rank": 5,
       "masked": "scoob1234",
       "hash": "b0f256448ee200e6",
-      "wagered": 509.68,
+      "wagered": 510.45,
       "prize": 20
     },
     {
