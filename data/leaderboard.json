@@ -15,30 +15,30 @@
     20
   ],
   "boardSize": 25,
-  "totalWagered": 15936.29,
-  "playerCount": 12,
-  "cacheUpdatedAt": "2026-09-25 04:15:16",
-  "updatedAt": "2026-09-25T04:15:16.741Z",
+  "totalWagered": 16192.81,
+  "playerCount": 13,
+  "cacheUpdatedAt": "2026-09-26 01:08:15",
+  "updatedAt": "2026-09-26T01:08:15.500Z",
   "entries": [
     {
       "rank": 1,
       "masked": "ITSBOBB",
       "hash": "ab020ca894181d4b",
-      "wagered": 9892.72,
+      "wagered": 9908.73,
       "prize": 100
     },
     {
       "rank": 2,
       "masked": "mosses000",
       "hash": "e7b55d19d740c688",
-      "wagered": 2224.76,
+      "wagered": 2224.93,
       "prize": 60
     },
     {
       "rank": 3,
       "masked": "pleasewin00",
       "hash": "fbdc7ca08d51baa4",
-      "wagered": 1407.73,
+      "wagered": 1474.88,
       "prize": 40
     },
     {
@@ -52,14 +52,14 @@
       "rank": 5,
       "masked": "scoob1234",
       "hash": "b0f256448ee200e6",
-      "wagered": 510.45,
+      "wagered": 510.78,
       "prize": 20
     },
     {
       "rank": 6,
       "masked": "martinboat",
       "hash": "6c5193968a834faf",
-      "wagered": 389.98,
+      "wagered": 390.01,
       "prize": 0
     },
     {
@@ -71,34 +71,41 @@
     },
     {
       "rank": 8,
+      "masked": "karinamaxwin",
+      "hash": "2a2cd5f034da88e2",
+      "wagered": 130.01,
+      "prize": 0
+    },
+    {
+      "rank": 9,
       "masked": "Maxxport0",
       "hash": "ce9ac2961cbc2ac0",
       "wagered": 125.44,
       "prize": 0
     },
     {
-      "rank": 9,
-      "masked": "karinamaxwin",
-      "hash": "2a2cd5f034da88e2",
-      "wagered": 61.31,
+      "rank": 10,
+      "masked": "jung001",
+      "hash": "8fee55dbf2586a59",
+      "wagered": 104.13,
       "prize": 0
     },
     {
-      "rank": 10,
+      "rank": 11,
       "masked": "maxwinlebron",
       "hash": "5a2214166690ea7f",
       "wagered": 24.26,
       "prize": 0
     },
     {
-      "rank": 11,
+      "rank": 12,
       "masked": "brokertz",
       "hash": "9e0b5db4c4d269c4",
       "wagered": 20.23,
       "prize": 0
     },
     {
-      "rank": 12,
+      "rank": 13,
       "masked": "martinsbot",
       "hash": "21bca6bcac876721",
       "wagered": 2.65,
