@@ -15,9 +15,17 @@
     20
   ],
   "boardSize": 25,
-  "totalWagered": 0,
-  "playerCount": 0,
-  "cacheUpdatedAt": "2026-10-01 01:46:16",
-  "updatedAt": "2026-10-01T01:46:16.241Z",
-  "entries": []
+  "totalWagered": 3.17,
+  "playerCount": 1,
+  "cacheUpdatedAt": "2026-10-01 05:05:15",
+  "updatedAt": "2026-10-01T05:05:15.209Z",
+  "entries": [
+    {
+      "rank": 1,
+      "masked": "mosses000",
+      "hash": "e7b55d19d740c688",
+      "wagered": 3.17,
+      "prize": 100
+    }
+  ]
 }
