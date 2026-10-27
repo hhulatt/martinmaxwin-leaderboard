@@ -80,13 +80,28 @@
         <button class="info" id="rules-btn" type="button"
                 aria-label="Leaderboard rules" title="Leaderboard rules">i</button>
       </h2>
-      <p class="section-sub" id="board-sub">Search below to find your own position.</p>
+      <p class="section-sub" id="board-sub">Usernames are partially hidden to protect player privacy. Search below to find your own position.</p>
     </div>
 
-    <div class="board-tabs" id="board-tabs" role="tablist" aria-label="Choose a leaderboard" hidden>
+    <div class="board-tabs" id="board-tabs" role="tablist" aria-label="Choose a leaderboard">
       <button class="board-tab is-active" id="tab-monthly" type="button" role="tab" aria-selected="true">Monthly</button>
-      <button class="board-tab" id="tab-weekly" type="button" role="tab" aria-selected="false" hidden>Weekly</button>
+      <button class="board-tab" id="tab-weekly" type="button" role="tab" aria-selected="false">Weekly</button>
       <button class="board-tab" id="tab-history" type="button" role="tab" aria-selected="false" hidden>Past winners</button>
+    </div>
+
+    <div id="weekly-prelaunch" class="weekly-prelaunch" hidden>
+      <p class="weekly-prelaunch__eyebrow">Weekly Leaderboard</p>
+      <h2 class="weekly-prelaunch__title">Starts 2nd November</h2>
+      <p class="weekly-prelaunch__prizes">$25 &middot; $15 &middot; $10 every week</p>
+      <div class="weekly-prelaunch__clock">
+        <span class="wcd-unit"><span id="wcd-days">--</span><small>d</small></span>
+        <span class="wcd-sep">:</span>
+        <span class="wcd-unit"><span id="wcd-hours">--</span><small>h</small></span>
+        <span class="wcd-sep">:</span>
+        <span class="wcd-unit"><span id="wcd-mins">--</span><small>m</small></span>
+        <span class="wcd-sep">:</span>
+        <span class="wcd-unit"><span id="wcd-secs">--</span><small>s</small></span>
+      </div>
     </div>
 
     <div id="live-board">
@@ -178,6 +193,7 @@
         1st $100 · 2nd $60 · 3rd $40 · 4th $30 · 5th $20.</li>
       <li><strong>Ranking.</strong> Highest weighted wager takes 1st, and so on down. A place with
         nobody in it pays nothing and shows a dash.</li>
+      <li><strong>The weekly board.</strong> A separate $50 runs Monday 00:00 to Sunday 23:59 UK time, paid 1st $25 · 2nd $15 · 3rd $10. It is judged the same way and is separate from the monthly prize.</li>
       <li><strong>When it updates.</strong> Refreshed automatically every midnight UK time, straight from Rainbet's official
         affiliate data. The board can be a few hours behind your latest play.</li>
       <li><strong>Final standings.</strong> Totals are taken from Rainbet at the moment the period

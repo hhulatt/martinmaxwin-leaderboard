@@ -20,9 +20,11 @@
   const HISTORY_INDEX_URL = 'data/history/index.json';
   /* A weekly board runs alongside the monthly one, funded separately by the
      creator. The code ships to every site; only this flag turns it on. */
-  const WEEKLY_ENABLED = false;
+  const WEEKLY_ENABLED = true;
   const WEEK_DATA_URL = 'data/weekly.json';
   const WEEK_HISTORY_INDEX_URL = 'data/history-weekly/index.json';
+  /* Weekly pre-launch: first cycle starts midnight UK time on this date. */
+  const WEEKLY_FIRST_CYCLE = [2026, 11, 2]; // [year, month, day]
 
   const $ = (id) => document.getElementById(id);
 
@@ -492,6 +494,38 @@
 
   const LIVE = ['countdown-wrap', 'stats', 'live-board'];
 
+  /* ---------- Weekly pre-launch countdown --------------------------------- */
+
+  function isWeeklyPreLaunch() {
+    return Date.now() < zonedMidnight(...WEEKLY_FIRST_CYCLE);
+  }
+
+  let _weeklyTimer = null;
+
+  function startWeeklyCountdown() {
+    if (_weeklyTimer) clearInterval(_weeklyTimer);
+    function tick() {
+      const diff = zonedMidnight(...WEEKLY_FIRST_CYCLE) - Date.now();
+      if (diff <= 0) {
+        clearInterval(_weeklyTimer);
+        _weeklyTimer = null;
+        $('weekly-prelaunch').hidden = true;
+        for (const id of LIVE) $(id).hidden = false;
+        return;
+      }
+      const d = Math.floor(diff / 86400000);
+      const h = Math.floor((diff % 86400000) / 3600000);
+      const m = Math.floor((diff % 3600000) / 60000);
+      const s = Math.floor((diff % 60000) / 1000);
+      $('wcd-days').textContent = d;
+      $('wcd-hours').textContent = String(h).padStart(2, '0');
+      $('wcd-mins').textContent = String(m).padStart(2, '0');
+      $('wcd-secs').textContent = String(s).padStart(2, '0');
+    }
+    tick();
+    _weeklyTimer = setInterval(tick, 1000);
+  }
+
   function setView(next) {
     if (next === view) return;
     view = next;
@@ -509,9 +543,18 @@
     $('board-title').textContent = past ? 'Past winners' : 'Current leaderboard';
     $('board-sub').textContent = past
       ? 'Final standings from every period that has closed, straight from Rainbet.'
-      : 'Search below to find your own position.';
+      : 'Usernames are partially hidden to protect player privacy. Search below to find your own position.';
 
     if (past) { renderHistory(); return; }
+
+    // Weekly pre-launch: show countdown banner, hide the live board areas.
+    if (view === 'weekly' && isWeeklyPreLaunch()) {
+      for (const id of LIVE) $(id).hidden = true;
+      $('weekly-prelaunch').hidden = false;
+      startWeeklyCountdown();
+      return;
+    }
+    $('weekly-prelaunch').hidden = true;
 
     // Back to a live board.
     boardView = view;
