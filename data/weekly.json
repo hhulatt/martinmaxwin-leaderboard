@@ -1,27 +1,22 @@
 {
-  "cycle": "2026-09-14",
-  "periodStart": "2026-09-14",
-  "periodEnd": "2026-09-20",
+  "cycle": "2026-10-26",
+  "periodStart": "2026-10-26",
+  "periodEnd": "2026-11-01",
   "cycleMode": "weekly",
   "cycleStartDay": 1,
   "timezone": "Europe/London",
+  "fullUsernames": false,
   "prizePool": 50,
   "prizes": [
-    30,
-    20
+    25,
+    15,
+    10
   ],
   "boardSize": 25,
-  "totalWagered": 0.06,
-  "playerCount": 1,
-  "cacheUpdatedAt": "2026-09-14 04:12:46",
-  "updatedAt": "2026-09-14T04:12:46.446Z",
-  "entries": [
-    {
-      "rank": 1,
-      "masked": "mo*****00",
-      "hash": "e7b55d19d740c688",
-      "wagered": 0.06,
-      "prize": 30
-    }
-  ]
+  "totalWagered": 0,
+  "playerCount": 0,
+  "cacheUpdatedAt": null,
+  "updatedAt": "2026-10-28T01:59:10.669Z",
+  "entries": [],
+  "startsOn": "2026-09-01"
 }
