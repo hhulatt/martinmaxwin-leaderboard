@@ -2,7 +2,7 @@
 
 Live at **https://martinmaxwin.com/**
 
-A one-page static site showing a $250 monthly wager leaderboard for Rainbet
+A one-page static site showing a $500 monthly wager leaderboard for Rainbet
 affiliate code **MAXWINMARTIN**. Generated from the Forge Partners leaderboard
 template — do not hand-edit, see *Making changes* below.
 
@@ -35,14 +35,14 @@ The board therefore keeps working if the API is down, and costs nothing to serve
 | --- | --- |
 | Affiliate code | `MAXWINMARTIN` |
 | Referral link | https://rainbet.com?r=maxwinmartin |
-| Prize pool | $250 across 5 places |
-| Split | 1st $100 · 2nd $60 · 3rd $40 · 4th $30 · 5th $20 |
+| Prize pool | $500 across 5 places |
+| Split | 1st $200 · 2nd $120 · 3rd $80 · 4th $60 · 5th $40 |
 | Cycle | Calendar month — 1st to the last day of the month |
 | First cycle | 2026-09-01 — earlier months are never shown as past winners |
 | Timezone | Europe/London |
 | Refresh | 2 0 * * * and 2 23 * * * (UTC) |
-| Weekly board | off — set "weekly" in the creator config to switch it on |
-| Username masking | OFF — full usernames are published |
+| Weekly board | on — $50 across 3 places, Monday to Sunday UK time |
+| Username masking | on — usernames are published with the middle starred out |
 
 ## Go-live checklist
 
